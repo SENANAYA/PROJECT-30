@@ -89,38 +89,37 @@ function draw() {
   strokeWeight(2);
   stroke(0,0,0);
   
-  fill("skyblue");
-  block1.display();
-  block2.display();
-  block3.display();
-  block4.display();
-  block5.display();
-  block6.display();
-  block7.display();
-  fill("pink");
-  block8.display();
-  block9.display();
-  block10.display();
-  block11.display();
-  block12.display();
-  fill("turquoise");
-  block13.display();
-  block14.display();
-  block15.display();
-  fill("grey");
-  block16.display();
-  fill("skyblue");
-  blocks1.display();
-  blocks2.display();
-  blocks3.display();
-  blocks4.display();
-  blocks5.display();
-  fill("turquoise");
-  blocks6.display();
-  blocks7.display();
-  blocks8.display();
-  fill("pink")
-  blocks9.display();
+  
+  block1.display(0,50,255);
+  block2.display(0,50,255);
+  block3.display(0,50,255);
+  block4.display(0,50,255);
+  block5.display(0,50,255);
+  block6.display(0,50,255);
+  block7.display(0,50,255);
+  
+  block8.display(255,50,50);
+  block9.display(255,50,50);
+  block10.display(255,50,50);
+  block11.display(255,50,50);
+  block12.display(255,50,50);
+
+  block13.display(0,100,255);
+  block14.display(0,100,255);
+  block15.display(0,100,255);
+  
+  block16.display(50,50,50);
+  
+  blocks1.display(0,50,255);
+  blocks2.display(0,50,255);
+  blocks3.display(0,50,255);
+  blocks4.display(0,50,255);
+  blocks5.display(0,50,255);
+  blocks6.display(0,100,255);
+  blocks7.display(0,100,255);
+  blocks8.display(0,100,255);
+  
+  blocks9.display(255,50,50);
   fill("gold");
 
 ball.display()
